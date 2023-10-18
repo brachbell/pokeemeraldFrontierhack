@@ -1213,9 +1213,9 @@ const struct FacilityMon gBattleFrontierMons[NUM_FRONTIER_MONS] =
     },
     [FRONTIER_MON_ILLUMISE_1] = {
         .species = SPECIES_ILLUMISE,
-        .moves = {MOVE_SIGNAL_BEAM, MOVE_AERIAL_ACE, MOVE_BRICK_BREAK, MOVE_TRICK},
-        .itemTableId = BATTLE_FRONTIER_ITEM_CHOICE_BAND,
-        .evSpread = F_EV_SPREAD_ATTACK | F_EV_SPREAD_SPEED,
+        .moves = {MOVE_SEISMIC_TOSS, MOVE_THUNDER_WAVE, MOVE_ENCORE, MOVE_ATTRACT},
+        .itemTableId = BATTLE_FRONTIER_ITEM_BRIGHT_POWDER,
+        .evSpread = F_EV_SPREAD_HP | F_EV_SPREAD_SPEED,
         .nature = NATURE_JOLLY
     },
     [FRONTIER_MON_IVYSAUR_1] = {
