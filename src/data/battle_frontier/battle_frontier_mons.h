@@ -777,6 +777,13 @@ const struct FacilityMon gBattleFrontierMons[NUM_FRONTIER_MONS] =
         .evSpread = F_EV_SPREAD_SP_DEFENSE | F_EV_SPREAD_DEFENSE | F_EV_SPREAD_HP,
         .nature = NATURE_QUIRKY
     },
+    [FRONTIER_MON_RAYQUAZA] = {
+        .species = SPECIES_RAYQUAZA,
+        .moves = {MOVE_NONE, MOVE_NONE, MOVE_NONE, MOVE_SPLASH},
+        .itemTableId = BATTLE_FRONTIER_ITEM_CHOICE_BAND,
+        .evSpread = F_EV_SPREAD_SP_DEFENSE | F_EV_SPREAD_DEFENSE | F_EV_SPREAD_HP,
+        .nature = NATURE_QUIRKY
+    },
     [FRONTIER_MON_KRABBY] = {
         .species = SPECIES_KRABBY,
         .moves = {MOVE_DOUBLE_EDGE, MOVE_MUD_SHOT, MOVE_SWORDS_DANCE, MOVE_REST},
