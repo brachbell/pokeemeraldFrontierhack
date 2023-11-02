@@ -1138,7 +1138,7 @@ const struct FacilityMon gBattleFrontierMons[NUM_FRONTIER_MONS] =
         .species = SPECIES_DELCATTY,
         .moves = {MOVE_WISH, MOVE_PROTECT, MOVE_BODY_SLAM, MOVE_SHADOW_BALL},
         .itemTableId = BATTLE_FRONTIER_ITEM_BRIGHT_POWDER,
-        .evSpread = F_EV_SPREAD_SP_ATTACK | F_EV_SPREAD_SPEED,
+        .evSpread = F_EV_SPREAD_ATTACK | F_EV_SPREAD_SPEED,
         .nature = NATURE_MODEST
     },
     [FRONTIER_MON_SABLEYE_1] = {
