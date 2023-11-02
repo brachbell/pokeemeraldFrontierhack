@@ -1192,10 +1192,10 @@ const struct FacilityMon gBattleFrontierMons[NUM_FRONTIER_MONS] =
     },
     [FRONTIER_MON_WAILMER_1] = {
         .species = SPECIES_WAILMER,
-        .moves = {MOVE_AMNESIA, MOVE_REST, MOVE_SLEEP_TALK, MOVE_WATERFALL},
-        .itemTableId = BATTLE_FRONTIER_ITEM_GANLON_BERRY,
-        .evSpread = F_EV_SPREAD_DEFENSE | F_EV_SPREAD_SP_DEFENSE,
-        .nature = NATURE_LAX
+        .moves = {MOVE_HYDRO_PUMP, MOVE_REST, MOVE_SLEEP_TALK, MOVE_BLIZZARD},
+        .itemTableId = BATTLE_FRONTIER_ITEM_NEVER_MELT_ICE,
+        .evSpread = F_EV_SPREAD_DEFENSE | F_EV_SPREAD_SP_DEFENSE | F_EV_SPREAD_SP_ATTACK,
+        .nature = NATURE_MODEST
     },
     [FRONTIER_MON_ROSELIA_1] = {
         .species = SPECIES_ROSELIA,
@@ -1927,7 +1927,7 @@ const struct FacilityMon gBattleFrontierMons[NUM_FRONTIER_MONS] =
     },
     [FRONTIER_MON_WAILMER_2] = {
         .species = SPECIES_WAILMER,
-        .moves = {MOVE_SURF, MOVE_EARTHQUAKE, MOVE_SELF_DESTRUCT, MOVE_DOUBLE_EDGE},
+        .moves = {MOVE_SURF, MOVE_EARTHQUAKE, MOVE_SELF_DESTRUCT, MOVE_PROTECT},
         .itemTableId = BATTLE_FRONTIER_ITEM_LIECHI_BERRY,
         .evSpread = F_EV_SPREAD_SP_ATTACK | F_EV_SPREAD_ATTACK | F_EV_SPREAD_HP,
         .nature = NATURE_MILD
@@ -3005,10 +3005,10 @@ const struct FacilityMon gBattleFrontierMons[NUM_FRONTIER_MONS] =
     },
     [FRONTIER_MON_WAILORD_1] = {
         .species = SPECIES_WAILORD,
-        .moves = {MOVE_SURF, MOVE_ICY_WIND, MOVE_BODY_SLAM, MOVE_ROAR},
-        .itemTableId = BATTLE_FRONTIER_ITEM_SHELL_BELL,
-        .evSpread = F_EV_SPREAD_SP_DEFENSE | F_EV_SPREAD_DEFENSE | F_EV_SPREAD_HP,
-        .nature = NATURE_SASSY
+        .moves = {MOVE_AMNESIA, MOVE_REST, MOVE_SLEEP_TALK, MOVE_WATERFALL},
+        .itemTableId = BATTLE_FRONTIER_ITEM_GANLON_BERRY,
+        .evSpread = F_EV_SPREAD_DEFENSE | F_EV_SPREAD_SP_DEFENSE,
+        .nature = NATURE_LAX
     },
     [FRONTIER_MON_NINETALES_1] = {
         .species = SPECIES_NINETALES,
@@ -3677,10 +3677,10 @@ const struct FacilityMon gBattleFrontierMons[NUM_FRONTIER_MONS] =
     },
     [FRONTIER_MON_WAILORD_2] = {
         .species = SPECIES_WAILORD,
-        .moves = {MOVE_DOUBLE_EDGE, MOVE_REST, MOVE_CURSE, MOVE_AMNESIA},
-        .itemTableId = BATTLE_FRONTIER_ITEM_CHESTO_BERRY,
-        .evSpread = F_EV_SPREAD_SP_DEFENSE | F_EV_SPREAD_DEFENSE | F_EV_SPREAD_HP,
-        .nature = NATURE_ADAMANT
+        .moves = {MOVE_SURF, MOVE_EARTHQUAKE, MOVE_SELF_DESTRUCT, MOVE_DOUBLE_EDGE},
+        .itemTableId = BATTLE_FRONTIER_ITEM_LIECHI_BERRY,
+        .evSpread = F_EV_SPREAD_SP_ATTACK | F_EV_SPREAD_ATTACK | F_EV_SPREAD_HP,
+        .nature = NATURE_MILD
     },
     [FRONTIER_MON_NINETALES_2] = {
         .species = SPECIES_NINETALES,
