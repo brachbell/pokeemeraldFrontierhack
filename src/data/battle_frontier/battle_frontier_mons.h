@@ -1088,7 +1088,7 @@ const struct FacilityMon gBattleFrontierMons[NUM_FRONTIER_MONS] =
     [FRONTIER_MON_POLIWHIRL] = {
         .species = SPECIES_POLIWHIRL,
         .moves = {MOVE_REST, MOVE_BELLY_DRUM, MOVE_EARTHQUAKE, MOVE_FRUSTRATION},
-        .itemTableId = BATTLE_FRONTIER_ITEM_PETAYA_BERRY,
+        .itemTableId = BATTLE_FRONTIER_ITEM_CHESTO_BERRY,
         .evSpread = F_EV_SPREAD_ATTACK | F_EV_SPREAD_SPEED,
         .nature = NATURE_JOLLY
     },
