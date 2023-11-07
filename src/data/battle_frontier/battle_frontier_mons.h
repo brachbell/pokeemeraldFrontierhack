@@ -4470,7 +4470,7 @@ const struct FacilityMon gBattleFrontierMons[NUM_FRONTIER_MONS] =
         .species = SPECIES_ESPEON,
         .moves = {MOVE_PSYCHIC, MOVE_BITE, MOVE_CALM_MIND, MOVE_MORNING_SUN},
         .itemTableId = BATTLE_FRONTIER_ITEM_BRIGHT_POWDER,
-        .evSpread = F_EV_SPREAD_SP_ATTACK | F_EV_SPREAD_SPEED,
+        .evSpread = F_EV_SPREAD_HP | F_EV_SPREAD_SPEED,
         .nature = NATURE_TIMID
     },
     [FRONTIER_MON_UMBREON_3] = {
@@ -5142,8 +5142,8 @@ const struct FacilityMon gBattleFrontierMons[NUM_FRONTIER_MONS] =
         .species = SPECIES_ESPEON,
         .moves = {MOVE_QUICK_ATTACK, MOVE_CURSE, MOVE_LIGHT_SCREEN, MOVE_MORNING_SUN},
         .itemTableId = BATTLE_FRONTIER_ITEM_LIECHI_BERRY,
-        .evSpread = F_EV_SPREAD_SP_ATTACK | F_EV_SPREAD_SPEED,
-        .nature = NATURE_MODEST
+        .evSpread = F_EV_SPREAD_ATTACK | F_EV_SPREAD_HP,
+        .nature = NATURE_ADAMANT
     },
     [FRONTIER_MON_UMBREON_4] = {
         .species = SPECIES_UMBREON,
