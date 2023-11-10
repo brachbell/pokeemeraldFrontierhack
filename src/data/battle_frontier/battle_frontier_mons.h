@@ -4615,7 +4615,7 @@ const struct FacilityMon gBattleFrontierMons[NUM_FRONTIER_MONS] =
     },
     [FRONTIER_MON_SLAKING_3] = {
         .species = SPECIES_SLAKING,
-        .moves = {MOVE_THUNDER, MOVE_BLIZZARD, MOVE_FIRE_BLAST, MOVE_SOLAR_BEAM},
+        .moves = {MOVE_THUNDER, MOVE_BLIZZARD, MOVE_FIRE_BLAST, MOVE_ATTRACT},
         .itemTableId = BATTLE_FRONTIER_ITEM_BRIGHT_POWDER,
         .evSpread = F_EV_SPREAD_SP_ATTACK | F_EV_SPREAD_SPEED,
         .nature = NATURE_TIMID
